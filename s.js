@@ -1,6 +1,6 @@
 const input= document.getElementById("input")
 const button = document.querySelectorAll("button")
-
+let a = 5;
 button.forEach(element=>{
     element.addEventListener("click",(e)=>{
        console.log(e.target.textContent);
